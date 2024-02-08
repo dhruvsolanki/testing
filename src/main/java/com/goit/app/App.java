@@ -11,7 +11,7 @@ public class App
     public static void main( String[] args )
     {
         User user = new User();
-        user.setName("Vadim");
+        user.setName("Dhruv");
         user.setSurname("Batyashov");
         String json = new Gson().toJson(user);
         System.out.println(json);
